@@ -20,11 +20,18 @@ Trước khi sử dụng API, bạn cần cài đặt và chạy server:
    ```bash
    npm install
    ```
-3. Tạo database nếu chưa có
+3. Tạo file .env
+   ```bash
+   DB_HOST="localhost"
+   DB_USER="root"
+   DB_PASSWORD=""
+   DB_DATABASE="shop"
+   ```
+4. Tạo database nếu chưa có
    ```bash
    node createTables.js
    ```
-4. Chạy server:
+5. Chạy server:
    ```bash
    node app.js
    ```
